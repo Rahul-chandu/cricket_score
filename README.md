@@ -3,4 +3,4 @@ The code will accumulate the score for every ball of the innings in a way of run
 We had designed the code in such way that it will display mostly all formalities  that should be taken for match like toss,displaying score ..etc.
 Our team members are: MEKARTHI VIVEK CHAITHANYA (142301024) 
                       GOTLURU RAHUL 
-                      GOPICHAND 
+                      GOPICHAND
