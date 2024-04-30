@@ -250,13 +250,13 @@ def second_innings():
             scorecard['total_runs'] += runs_scored 
         elif outcome == "wicket":
            scorecard['wickets'] += 1
-           batsman_on_strike = batsman_2 if batsman_on_strike == batsman_1 else batsman_1
            print("Wicket has fallen!")
            if batsman_on_strike==batsman_1:
                print(f"score of {batsman_1} = {scorecard[batsman_1]}")  
            else:
                print(f"score of {batsman_2} = {scorecard[batsman_2]}")  
-           new_batsman = input("Enter name of new batsman: ")
+           batsman_on_strike = batsman_2 if batsman_on_strike == batsman_1 else batsman_1
+           new_batsman = input("Enter name of new batsman: ") 
            print("New batsman:", new_batsman)
            if batsman_on_strike==batsman_2: 
                batsman_1=new_batsman
